@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body class="t-img-gray">
+
+ <!---page wrapper start------>
+<div class="page-wrapper">
+    <!------header start----->
+    <header class="header">
+        <div class="header-container container">
+            <a href="#" class="header-logo-link">
+                <h1 class="mylogo">Somali <b>fitness</b></h1>
+            </a>
+            <button type="button" class="header-toggler js-header-toggler">
+                <span class="header-toggler-text" data-text="close">Menu</span>
+            </button>
+            <nav class="header-nav js-header-nav">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="#Home" class="header-link">Home</a>
+                        <span class="header-line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#About" class="header-link">About</a>
+                        <span class="header-line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#Service" class="header-link">Service</a>
+                        <span class="header-line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#Pricing" class="header-link">Pricing</a>
+                        <span class="header-line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#Team" class="header-link">Team</a>
+                        <span class="header-line line"></span>
+                    </li>
+                    <li class="header-item">
+                        <a href="#Contact" class="header-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!------header end----->
+
+    <!-------------home section start-->
+    <section class="home" id="Home">
+        <div class="home-container container">
+            <div class="home-back">
+                <div class="home-img-box">
+                    <img src="home-img.jpg" alt="" class="home-img">
+                    <div class="img-cover"></div>
+                    <div class="img-cover"></div>
+                </div>
+            </div>
+            <div class="home-front">
+                <h1 class="home-title-wrap">
+                    <span class="home-title">no pain</span>
+                    <span class="home-title">no gain</span>
+                </h1>
+                <div class="home-btn-wrap">
+                    <a href="#About" class="btn btn--2">About us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------about selection-------->
+    <section class="about" id="About">
+        <div class="about-container container">
+            <div class="about-section-header section-header section-header--center">
+                <h2 class="section-header-title">welcome to x-gym</h2>
+            </div>
+            <div class="about-img-box">
+                <img src="about-img.jpg" alt="" class="about-img">
+                <div class="img-cover"></div>
+                <div class="img-cover"></div>
+                <div class="about-play-btn-wrap">
+                    <button class="about-play-btn js-about-play-btn">
+                        <i class="fa fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>Your gym workout routine must be set in sync with your purpose. Whether you plan to shed the extra weight gained during
+                the work-from-home era, or the purpose is to tone your body, it is important that you begin in a planned manner.
+                
+                The internet is filled with a number of workout plans for men. But it’s important to note that the body structure of
+                every person is not the same. The workout routine for men may be standardized to a certain limit, however, minor tweaks
+                as per your physiology are crucial.
+                
+                You might be someone who is already hitting the gym several times a week or it might be your first time. Based on this
+                you will have to choose a fitness plan that works best for your body and start exercising right.
+                
+                One must not put too much load if following a gym routine for the first time. On the other hand, following a workout
+                plan that is less effective than regular gym goes would show no results.
+                
+                This leaves us with a painful question, how would one determine with which routine to select? Here is how you can select
+                from a beginner routine, an advanced routine, or an intermediate routine.</p>
+            </div>
+            <div class="about-avatar">
+                <div class="about-avatar-img-box">
+                    <img src="owner.jpg" alt="" class="about-avatar-img">
+                </div>
+                <div class="about-avatar-text">
+                    <h3 class="about-avatar-name">John Deo</h3>
+                    <div class="about-avatar-position">gym owner</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<!------------vedio start----->
+<div class="vedio-popup js-vedio-popup">
+    <div class="vedio-popup-inner">
+        <button type="button" class="vedio-popup-close js-vedio-popup-close">
+            <i class="fa fa-times"></i>
+        </button>
+        <div class="vedio-popup-iframe-box">
+            <iframe class="vedio-popup-iframe js-vedio-popup-iframe" src="https://www.youtube.com/embed/OUctE0Gv5Pk" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<!----------service section-------------->
+<section class="service" id="Service">
+    <div class="service-container container">
+        <div class="service-section-header section-header section-header--center">
+            <h2 class="section-header-title">Clases We Provide</h2>
+        </div>
+        <div class="service-accordion accordion js-accordion">
+            <!-------acording item start----->
+            <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-btn js-accordion-btn">
+                    <span class="accordion-title">weight lifting</span>
+                    <span class="accordion-icon"><i class="fa fa-arrow-right-long"></i></span>
+                </button>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <div class="accordion-content">
+                        <p>Building and maintaining muscle is necessary for all of us, especially as we age. And the earlier we start, the better.
+                        
+                        According to the American Council on Exercise, most adults lose nearly a half pound of muscle per year starting around
+                        age 30, mostly because they aren’t as active as they were when they were younger. Losing muscle at the same time that
+                        metabolism starts to slow down is a recipe for weight gain and the health issues that can accompany it.</p>
+                        <p>The amount of weight you use depends on how many repetitions you’re aiming for. You want to lift enough weight so that
+                        the last repetition is really tough and you feel like you couldn’t do one more. Naturally, you’ll need to use a heavier
+                        dumbbell for 6 repetitions than you will for 12, even though you’re doing the same exercise.</p>
+                    </div>
+                    <div class="accordion-img-box">
+                        <img src="1.jpg" alt="" class="accordion-img">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----acording item end----->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-btn js-accordion-btn">
+                    <span class="accordion-title">aerobics</span>
+                    <span class="accordion-icon"><i class="fa fa-arrow-right-long"></i></span>
+                </button>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <div class="accordion-content">
+                        <p>The American Heart Association recommends that everyone reach a minimum of 30 minutes of some form of cardiovascular
+                        exercise 5 to 7 days per week. This can be broken up into 10-minute time periods. This means that taking 3 walks of 10
+                        minutes each would let you reach the recommended minimum guideline for reducing the risk of heart disease, diabetes,
+                        hypertension, and high cholesterol. You would also burn the same number of calories as you would if you walked for the
+                        full 30 minutes at 1 time</p>
+                        <p>Aerobic exercise provides cardiovascular conditioning. The term aerobic actually means "with oxygen," which means that
+                        breathing controls the amount of oxygen that can make it to the muscles to help them burn fuel and move.</p>
+                    </div>
+                    <div class="accordion-img-box">
+                        <img src="2.jpg" alt="" class="accordion-img">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----acording item end----->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-btn js-accordion-btn">
+                    <span class="accordion-title">cardio</span>
+                    <span class="accordion-icon"><i class="fa fa-arrow-right-long"></i></span>
+                </button>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <div class="accordion-content">
+                        <p>Warm up for five minutes. Do the speed bursts here at the fastest pace you can safely maintain (power walking, running,
+                        cycling, using the elliptical or stairclimber) for the given duration. Cool down for four minutes.</p>
+                        <p>If you hit the cardio machines at the gym often, things can go stale real fast. But the classic pieces of equipment
+                        you'll find in every gym–the treadmill, elliptical, stationary bike, and stair climber–don't have to be boring as long
+                        as you make an effort to switch things up. If you're fresh out of ideas, take a look at this compilation of the best
+                        cardio workouts for the gym. Whether you're in the mood for a quick and intense workout or a longer, lower-intensity
+                        option, you'll find the cardio workout for you.p>
+                    </div>
+                    <div class="accordion-img-box">
+                        <img src="3.jpg" alt="" class="accordion-img">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----acording item end----->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-btn js-accordion-btn">
+                    <span class="accordion-title">Boxing Punch</span>
+                    <span class="accordion-icon"><i class="fa fa-arrow-right-long"></i></span>
+                </button>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <div class="accordion-content">
+                        <p>The initial (and somewhat unexpected) impact can be a bit jarring, and it won't take long to realize you can't get away
+                        with throwing soft punches. You must engage your entire body, including your core, shoulders, and hips, to control your
+                        movements as you hit the bag.
+                        
+                        Of course, any exercise requiring this type of total-body engagement can help you torch calories, strengthen your major
+                        muscle groups, and boost bone density.1 Even more than that, though, boxing against a heavy bag (or an actual person) is
+                        one of the only cardiovascular exercises that provide upper body, bone-building repetitive impact.</p>
+                        <p>To complete the workout, perform each exercise according to the suggested time intervals. After finishing all of the
+                        exercises, rest for a minute, then repeat the series a second time for a total of 20 minutes. Twenty minutes may not
+                        seem like much, but don't underestimate this challenge—you're practically guaranteed to break a sweat.</p>
+                    </div>
+                    <div class="accordion-img-box">
+                        <img src="4.jpg" alt="" class="accordion-img">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----acording item end----->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-btn js-accordion-btn">
+                    <span class="accordion-title">Power Yoga</span>
+                    <span class="accordion-icon"><i class="fa fa-arrow-right-long"></i></span>
+                </button>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <div class="accordion-content">
+                        <p>There isn’t just one style of yoga. This popular form of mind-body exercise has many different varieties, each with its
+                        own discipline, focus, and goals.
+                        
+                        Power yoga, for example, is designed specifically to improve muscle strength and cardiovascular endurance. The poses are
+                        challenging, and you move from one pose to the next quickly.
+                        
+                        It provides a good physical workout and, unlike some other styles of yoga that follow the same series of poses each
+                        time, power yoga classes are seldom alike.
+                        
+                        This article will take a closer look at power yoga, its benefits, possible drawbacks, and how to get started.</p>
+                        <p>As the name suggests, power yoga is focused on building strength and endurance. It is also an excellent form of yoga for
+                        burning calories.
+                        
+                        Although power yoga isn’t an official type of yoga, the term is sometimes used interchangeably with Vinyasa yoga. It’s
+                        probably more accurate to say that power yoga is a form of Vinyasa, which has its roots in Ashtanga yoga, an established
+                        practice that began in the early 20th century.
+                        
+                        With power yoga, the emphasis is on the flow from one pose to the next, rather than approaching each pose separately.
+                        The poses aren’t disconnected from each other, unlike some other forms of yoga.
+                        </p>
+                    </div>
+                    <div class="accordion-img-box">
+                        <img src="5.jpg" alt="" class="accordion-img">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----acording item end----->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-btn js-accordion-btn">
+                    <span class="accordion-title">Zumba Class</span>
+                    <span class="accordion-icon"><i class="fa fa-arrow-right-long"></i></span>
+                </button>
+            </div>
+            <div class="accordion-body">
+                <div class="accordion-body-inner">
+                    <div class="accordion-content">
+                        <p>During Zumba classes, the instructor will play a series of Latin and international songs. The class will begin with slow
+                        rhythm beats, gradually building to intense high energy songs throughout your workout session. It will end with a
+                        cooling-down tune.
+                        
+                        Not a good dancer? Do not worry; the choreography is easy to follow, and the steps are repetitive to allow people to
+                        learn the routine on-the-go.</p>
+                        <p>This is the best part about Zumba classes; anyone can do it. Our friendly and energetic instructors teach you the steps
+                        and choreography along the way. Learn the choreography at your own pace and have fun as you shed away the calories.
+                        
+                        Moreover, you do not need any gear or equipment to attend Zumba classes. Simply show up in relaxed clothing and athletic
+                        shoes with a smile and a positive attitude, and that is all you will need.</p>
+                    </div>
+                    <div class="accordion-img-box">
+                        <img src="6.jpg" alt="" class="accordion-img">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----acording item end----->
+        </div>
+    </div>
+</section>
+<section class="pricing" id="Pricing">
+    <div class="pricing-container container">
+        <div class="pricing-section-header section-header section-header--center">
+            <h2 class="section-header-title">our pricing plans</h2>
+        </div>
+        <div class="pricing-cards">
+            <!-----pricing card start-->
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="pricing-title">basic</h3>
+                </div>
+                <div class="pricing-body">
+                    <ul class="pricing-list">
+                        <li class="pricing-list-item">
+                            <i class="fa fa-check"></i>
+                            <span>unlimited equipment</span>
+                        </li>
+                        <li class="pricing-list-item">
+                            <i class="fa fa-check"></i>
+                            <span>Diet Chort</span>
+                        </li>
+                        <li class="pricing-list-item">
+                            <i class="fa fa-check"></i>
+                            <span>Weight Gain</span>
+                        </li>
+                        <li class="pricing-list-item">
+                            <i class="fa fa-times"></i>
+                            <span>Weight Loss</span>
+                        </li>
+                        <li class="pricing-list-item">
+                            <i class="fa fa-times"></i>
+                            <span>Personal Trainer</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pricing-footer">
+                    <div class="pricing-price-wrap">
+                        <div class="pricing-price">$199</div>
+                        <div class="pricing-session">/ monthly</div>
+                    </div>
+                    <div class="pricing-btn-wrap">
+                        <a href="#" class="btn btn--1">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-----pricing card end-->
+            <!-----pricing card start-->
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3 class="pricing-title">Standard</h3>
+                </div>
+                <div class="pricing-body">
+                    <ul class="pricing-list">
+                        <li class="pricing-list-item">
+                            <i class="fa fa-check"></i>
+                            <span>unlimited equipment</span>
+                        </li>
+                        <li class="pricing-list-item">
+                            <i class="fa fa-check"></i>
+                            <span>Diet Chort</span>
+                        </li>
+                        <li class="pricing-list-item">
+                            <i class="fa fa-check"></i>
+                            <span>Weight Gain</span>
+                        </li>
+                        <li class="pricing-list-item">
+                            <i class="fa fa-check"></i>
+                            <span>Weight Loss</span>
+                        </li>
+                        <li class="pricing-list-item">
+                            <i class="fa fa-check"></i>
+                            <span>Personal Trainer</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pricing-footer">
+                    <div class="pricing-price-wrap">
+                        <div class="pricing-price">$499</div>
+                        <div class="pricing-session">/ monthly</div>
+                    </div>
+                    <div class="pricing-btn-wrap">
+                        <a href="#" class="btn btn--2">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-----pricing card end-->
+        </div>
+    </div>
+</section>
+<!--------team section start-->
+<section class="team" id="Team">
+    <div class="team-container container">
+        <div class="team-section-header section-header section-header--center">
+            <h2 class="section-header-title">meet our trainers</h2>
+        </div>
+        <div class="team-items">
+            <!------------team item start------>
+            <div class="team-item">
+                <div class="team-img-box">
+                    <img src="t1.jpg" alt="" class="team-img">
+                    <div class="img-cover"></div>
+                    <div class="img-cover"></div>
+                </div>
+                <div class="team-text">
+                    <h3 class="team-name">John Deo</h3>
+                    <div class="team-position">Fitness trainer</div>
+                </div>
+                <div class="team-social social social--vertical">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!------------team item end------>
+            <!------------team item start------>
+            <div class="team-item">
+                <div class="team-img-box">
+                    <img src="t2.jpg" alt="" class="team-img">
+                    <div class="img-cover"></div>
+                    <div class="img-cover"></div>
+                </div>
+                <div class="team-text">
+                    <h3 class="team-name">John Deo</h3>
+                    <div class="team-position">Fitness trainer</div>
+                </div>
+                <div class="team-social social social--vertical">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!------------team item end------>
+            <!------------team item start------>
+            <div class="team-item">
+                <div class="team-img-box">
+                    <img src="t3.jpg" alt="" class="team-img">
+                    <div class="img-cover"></div>
+                    <div class="img-cover"></div>
+                </div>
+                <div class="team-text">
+                    <h3 class="team-name">John Deo</h3>
+                    <div class="team-position">Fitness trainer</div>
+                </div>
+                <div class="team-social social social--vertical">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!------------team item end------>
+            <!------------team item start------>
+            <div class="team-item">
+                <div class="team-img-box">
+                    <img src="t4.jpg" alt="" class="team-img">
+                    <div class="img-cover"></div>
+                    <div class="img-cover"></div>
+                </div>
+                <div class="team-text">
+                    <h3 class="team-name">John Deo</h3>
+                    <div class="team-position">Fitness trainer</div>
+                </div>
+                <div class="team-social social social--vertical">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!------------team item end------>
+        </div>
+    </div>
+</section>
+<!--------team section end-->
+<!------contact section start-->
+<sectio class="contact" id="Contact">
+    <div class="contact-container container">
+        <div class="contact-section-header section-header">
+            <h2 class="section-header-title">Contact Us</h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-items">
+                <div class="contact-item">
+                    <h3 class="contact-title">Location</h3>
+                    <div class="contact-text">Somalia  ,Mogadisho,  Special,  Howlwdak</div>
+                </div>
+                <div class="contact-item">
+                    <h3 class="contact-title">Call us</h3>
+                    <div class="contact-text">+252 61 3489069</div>
+                </div>
+                <div class="contact-item">
+                    <h3 class="contact-title">E-mail us</h3>
+                    <div class="contact-text">Engmascud77@gmail.com</div>
+                </div>
+            </div>
+            <form class="contact-form">
+            <div class="form-item">
+                <input type="text" class="form-control" placeholder="name" required>
+                <div class="form-line line"></div>
+            </div>
+            <div class="form-item">
+                <input type="text" class="form-control" placeholder="Email" required>
+                <div class="form-line line"></div>
+            </div>
+            <div class="form-item">
+                <input type="text" class="form-control" placeholder="Phone" required>
+                <div class="form-line line"></div>
+            </div>
+            <div class="form-item">
+                <textarea class="form-control form-control--message" placeholder="message" required></textarea>
+                <div class="form-line line"></div>
+            </div>
+            <div class="form-item">
+                <button class="form-btn btn btn--1">Send Message</button>
+                <div class="form-line line"></div>
+            </div>
+            </form>
+        </div>
+    </div>
+</sectio>
+<!------contact section end-->
+
+<!--------footer start------>
+<footer class="footer">
+    <div class="footer-line line"></div>
+    <div class="footer-container container">
+        <div class="footer-item">
+            <h3 class="footer-title">opening Hours</h3>
+            <div class="footer-timing">
+                <span>Mon to Fri: <span>7:30 am -1:00 am</span></span> <br>
+                <span>Sat: to Fri: <span>7:30 am -1:00 am</span></span> <br>
+                <span>Sunday Closed</span>
+            </div>
+        </div>
+        <div class="footer-item">
+            <h3 class="footer-title">follow us</h3>
+             <div class="footer-social social">
+                 <a href="https://www.facebook.com/hogamiye.mansour?mibextid=LQQJ4d" class="social-link"><i class="fab fa-facebook"></i></a>
+                 <a href="http://www.tiktok.com/@its_mascud" class="social-link"><i class="fab fa-tiktok"></i></a>
+                 <a href="https://instagram.com/abu___manzour?igshid=YmMyMTA2M2Y=" class="social-link"><i class="fab fa-instagram"></i></a>
+                 <a href="https://github.com/Mascuudcabdi/Mascuud" class="social-link"><i class="fab fa-github"></i></a>
+             </div>
+
+        </div>
+        <div class="footer-item">
+            <h3 class="footer-title">newsletter</h3>
+            <div class="footer-newsletter-title newsletter">
+                <div class="newsletter-title">Get The Latest News,Tips and Message, Including Special Offers</div>
+                <form class="newsletter-form">
+                    <input type="text" class="newsletter-input" placeholder="Email" required>
+                    <button type="submit" class="newsletter-btn"><i class="fa fa-arrow-right-long"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--------footer end------>
+
+<section class="copy">
+    &copy;copyright <a href="#">MascuudCoding</a> 2023 | All Rights Reserved
+</section>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
